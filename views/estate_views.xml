@@ -1,0 +1,16 @@
+<record model="ir.ui.view" id="estate_property_tree_view">
+    <field name="name">estate.property.tree</field>
+    <field name="model">estate.property</field>
+    <field name="arch" type="xml">
+        <tree string="Properties">
+            <field name="name"/>
+            <field name="expected_price"/>
+            <field name="selling_price"/>
+            <field name="bedrooms"/>
+            <field name="living_area"/>
+            <field name="facades"/>
+            <field name="garden"/>
+            <field name="state"/>
+        </tree>
+    </field>
+</record>
